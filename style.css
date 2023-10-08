@@ -8,3 +8,122 @@
     /* Змінні для сторінки Portfolio */
     --unhover_button-color: #F5F4FA;
 }
+
+
+/* Global styles */
+
+body {
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.nav-list-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.contact-list-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+
+}
+
+.address-list-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+/* WebStudio */
+
+.section-hero-title {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.section-hero-btn {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+}
+
+.features-list-title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.features-list-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+
+.section-work-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.section-team-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.team-list-title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.team-list-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* Portfolio */
+
+.filters-list-btn {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.projects-list-title {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.projects-list-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+}
