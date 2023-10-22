@@ -12,6 +12,13 @@
 
 /* Global styles */
 
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto; 
+}
+
 body {
     font-size: 14px;
     font-family: Roboto;
@@ -39,6 +46,11 @@ body {
 
 }
 
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .address-list-link {
     font-family: Roboto;
     font-size: 14px;
@@ -47,6 +59,11 @@ body {
 }
 
 /* WebStudio */
+
+.section-hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 
 .section-hero-title {
     font-family: Roboto;
@@ -60,6 +77,11 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
+}
+
+.section-features {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .features-list-title {
@@ -76,12 +98,20 @@ body {
     line-height: 1.7;
 }
 
+.section-work {
+    padding-bottom: 94px;
+}
 
 .section-work-title {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
+}
+
+.section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .section-team-title {
