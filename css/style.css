@@ -24,6 +24,12 @@ body {
     font-family: Roboto;
 }
 
+img {
+    max-width: 100%;
+}
+
+
+
 .logo {
     font-family: Raleway;
     font-size: 26px;
@@ -31,11 +37,28 @@ body {
     line-height: 1.2;
 }
 
+.container_header {
+    display: flex;
+    gap: 93px;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
 .nav-list-link {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
 }
 
 .contact-list-link {
@@ -70,6 +93,8 @@ body {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .section-hero-btn {
@@ -77,6 +102,8 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
+    display: block;
+    margin: 0 auto;
 }
 
 .section-features {
@@ -84,11 +111,17 @@ body {
     padding-bottom: 94px;
 }
 
+.features-list {
+    display: flex;
+    gap: 30px;
+}
+
 .features-list-title {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.1;
+    margin-bottom: 10px;
 }
 
 .features-list-text {
@@ -107,6 +140,13 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.work-list {
+    display: flex;
+    gap: 30px;
 }
 
 .section-team {
@@ -119,6 +159,13 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
 }
 
 .team-list-title {
@@ -126,6 +173,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
+    margin-bottom: 10px;
 }
 
 .team-list-text {
