@@ -28,7 +28,9 @@ img {
     max-width: 100%;
 }
 
-
+.header-logo {
+    color: #2196F3;
+}
 
 .logo {
     font-family: Raleway;
@@ -37,10 +39,19 @@ img {
     line-height: 1.2;
 }
 
+.logo.header {
+    color: #000000;
+}
+
+.logo.footer {
+    color: #FFF;
+}
+
 .container_header {
     display: flex;
     gap: 93px;
     align-items: center;
+    min-height: 80px;
 }
 
 .nav-list {
@@ -53,6 +64,11 @@ img {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
+    color: #212121;
+}
+
+.nav-list-link:hover {
+    color: #2196F3;
 }
 
 .contacts-list {
@@ -61,17 +77,26 @@ img {
     margin-left: auto;
 }
 
-.contact-list-link {
+.contacts-list-link {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
+    color: #757575;
+}
 
+.contacts-list-link:hover {
+    color: #2196F3;
 }
 
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #2F303A;
+}
+
+.address {
+    margin-top: 20px;
 }
 
 .address-list-link {
@@ -79,13 +104,18 @@ img {
     font-size: 14px;
     font-weight: 400;
     line-height: 2;
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-list-link.white {
+    color: #FFF;
 }
 
-/* WebStudio */
+/* WEBSTUDIO */
 
 .section-hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-color: #2F303A;
 }
 
 .section-hero-title {
@@ -95,15 +125,22 @@ img {
     line-height: 1.4;
     text-align: center;
     margin-bottom: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    max-width: 696px;
+    margin: 0 auto 30px auto;
 }
 
 .section-hero-btn {
+    padding: 10px 32px;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
     display: block;
     margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 
 .section-features {
@@ -152,6 +189,7 @@ img {
 .section-team {
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #F5F4FA;
 }
 
 .section-team-title {
@@ -168,11 +206,17 @@ img {
     gap: 30px;
 }
 
+.team-list-item {
+    background-color: #fff;
+}
+
 .team-list-title {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
+    text-align: center;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -181,15 +225,45 @@ img {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 /* Portfolio */
+
+.filters-list {
+    margin-top: 94px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
 
 .filters-list-btn {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
+    padding: 6px 25px;
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.filters-list-btn:hover {
+    background-color: rgba(33, 150, 243, 1);
+    color: white;
+}
+
+
+.projects-list {
+    margin-bottom: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 28px;
+    column-gap: 27px;
+}
+
+.projects-list-item {
+    border: 1px solid #EEE;
 }
 
 .projects-list-title {
@@ -197,6 +271,8 @@ img {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
+    margin-top: 20px;
+    margin-left: 24px;
 }
 
 .projects-list-text {
@@ -204,4 +280,6 @@ img {
     font-size: 16px;
     font-weight: 400;
     line-height: 2;
+    margin-bottom: 20px;
+    margin-left: 24px;
 }
