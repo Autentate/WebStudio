@@ -29,7 +29,7 @@ img {
 }
 
 .header-logo {
-    color: #2196F3;
+    color: var(--title-color);
 }
 
 .logo {
@@ -44,7 +44,7 @@ img {
 }
 
 .logo.footer {
-    color: #FFF;
+    color: var(--white-color);
 }
 
 .container_header {
@@ -64,11 +64,11 @@ img {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .nav-list-link:hover {
-    color: #2196F3;
+    color: var(--title-color);
 }
 
 .contacts-list {
@@ -82,17 +82,17 @@ img {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
-    color: #757575;
+    color: var(--small_text-color);
 }
 
 .contacts-list-link:hover {
-    color: #2196F3;
+    color: var(--title-color);
 }
 
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #2F303A;
+    background-color: var(-bg-color);
 }
 
 .address {
@@ -107,7 +107,7 @@ img {
     color: rgba(255, 255, 255, 0.6);
 }
 .address-list-link.white {
-    color: #FFF;
+    color: var(--white-color);
 }
 
 /* WEBSTUDIO */
@@ -116,7 +116,7 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     position: relative;
-    background-image: url("/img/section-hero_img.png");
+    background-image: url("../img/section-hero_img.png");
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: #2F303A; */    
@@ -128,7 +128,7 @@ img {
     line-height: 1.4;
     text-align: center;
     margin-bottom: 30px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-transform: uppercase;
     max-width: 696px;
     margin: 0 auto 30px auto;
@@ -142,8 +142,8 @@ img {
     line-height: 1.9;
     display: block;
     margin: 0 auto;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--white-color);
+    background-color: var(--title-color);
 }
 
 .section-features {
@@ -225,7 +225,7 @@ img {
 .section-team {
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: #F5F4FA;
+    background-color: var(--unhover_button-color);
 }
 
 .section-team-title {
@@ -243,7 +243,7 @@ img {
 }
 
 .team-list-item {
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 .team-list-title {
@@ -281,12 +281,12 @@ img {
     font-weight: 500;
     line-height: 1.2;
     padding: 6px 25px;
-    background-color: rgba(245, 244, 250, 1);
+    background-color: var(--unhover_button-color);
 }
 
 .filters-list-btn:hover {
     background-color: rgba(33, 150, 243, 1);
-    color: white;
+    color: var(--white-color);
 }
 
 
